@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    background: black;
+    background-size: cover;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #ffffff;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 7%, rgba(0,0,0,0.23) 100%);
+    padding-top: 5rem;
+}
+
+#cspio-page {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cspio-content {
+    max-width: 600px;
+    background-color: transparent;
+    border-radius: 2px;
+    text-align: center;
+}
+
+#cspio-headline {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 48px;
+    color: #c7d1d3;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+#cspio-logo {
+    max-width: 50%;
+    max-height: 50%;
+    margin-bottom: 20px;
+}
+
+#cspio-socialprofiles a {
+    color: #39b7ea;
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+#cspio-socialprofiles a:hover {
+    color: #ffffff;
+}
+
+/* Placeholder styling */
+::-webkit-input-placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+::-moz-placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:-ms-input-placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:-moz-placeholder {
+    font-family: Helvetica, Arial, sans-serif;
+}
